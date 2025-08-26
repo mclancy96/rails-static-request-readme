@@ -1,0 +1,42 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore log files and temp files.
+/log/*
+!/log/.keep
+/tmp
+
+# Ignore database files
+/db/*.sqlite3*
+/db/*.sqlite3-journal
+
+# Ignore master key for decrypting credentials and other secrets
+/config/master.key
+
+# Ignore credentials
+/config/credentials.yml.enc
+
+# Ignore byebug command history file.
+.byebug_history
+
+# Ignore node modules
+/node_modules
+
+# Ignore yarn files
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore dotenv environment variable files
+.env*
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore coverage reports
+/coverage/
+
+# Ignore public assets that are precompiled
+/public/assets
+
+# Ignore spring server pid file
+/tmp/pids/spring.pid
